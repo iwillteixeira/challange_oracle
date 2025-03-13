@@ -2,7 +2,7 @@
 let amigos = []
 
 function adicionarAmigo() {
-    console.log("teste")
+    console.log(document.getElementById("amigo"))
     let inputNome = document.getElementById("amigo");
     let nome = inputNome.value.trim();
 
@@ -32,4 +32,21 @@ function atualizarListaAmigos() {
         item.textContent = `${index + 1}. ${amigo}`;
         lista.appendChild(item);
     });
+}
+
+function sortearAmigo() {
+    // Verifica se há amigos na lista
+    if (amigos.length === 0) {
+        alert("A lista de amigos está vazia. Adicione pelo menos um nome antes de sortear.");
+        return;
+    }
+
+    // Gerar um índice aleatório dentro do intervalo do array
+    let indiceSorteado = Math.floor(Math.random() * amigos.length);
+
+    // Obter o nome sorteado
+    let amigoSorteado = amigos[indiceSorteado];
+
+    // Exibir o resultado na página
+    document.getElementById("resultado").innerHTML = `🎉 Amigo Sorteado: <strong>${amigoSorteado}</strong>`;
 }
