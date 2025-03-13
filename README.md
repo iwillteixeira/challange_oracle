@@ -27,16 +27,11 @@ O **Desafio Amigo Secreto** é um sistema interativo para organizar um sorteio d
 
 ## 📸 Capturas de Tela
 
-### Interface de Cadastro
-![Cadastro](assets/cadastro.png)
+### Interface
+![Cadastro](assets/interface.png)
 
 ### Sorteio dos Participantes
 ![Sorteio](assets/sorteio.png)
-
-### Exibição dos Resultados
-![Resultados](assets/resultados.png)
-
-## 🎥 Demonstração
 
 ## 📜 Licença
 Este projeto está licenciado sob a [MIT License](LICENSE).
