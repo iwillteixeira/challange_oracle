@@ -15,7 +15,7 @@ O **Desafio Amigo Secreto** é um sistema interativo para organizar um sorteio d
 
 ## 🛠️ Tecnologias Utilizadas
 - **JavaScript** (Linguagem principal)
-- **HTML & CSS** (Interface visual, se aplicável)
+- **HTML & CSS** (Interface visual)
 
 ### Opção 1: Executar diretamente no navegador
 1. Clone este repositório:
@@ -32,6 +32,3 @@ O **Desafio Amigo Secreto** é um sistema interativo para organizar um sorteio d
 
 ### Sorteio dos Participantes
 ![Sorteio](assets/sorteio.png)
-
-## 📜 Licença
-Este projeto está licenciado sob a [MIT License](LICENSE).
